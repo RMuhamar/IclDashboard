@@ -3,19 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7900B9AC2551132100E700A6 /* HomeCourierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900B9AB2551132100E700A6 /* HomeCourierController.swift */; };
+		7920A727253D7F6F00D707CA /* TableCourierExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A726253D7F6F00D707CA /* TableCourierExpress.swift */; };
+		7920A729253D7F8C00D707CA /* CekTableCourierExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A728253D7F8C00D707CA /* CekTableCourierExpress.swift */; };
+		7920EC72254045DA0026E47E /* TableBranchCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920EC71254045DA0026E47E /* TableBranchCredit.swift */; };
+		7920EC74254045EF0026E47E /* CekTableBranchCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920EC73254045EF0026E47E /* CekTableBranchCredit.swift */; };
+		7920EC76254046A00026E47E /* TableCourierCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920EC75254046A00026E47E /* TableCourierCredit.swift */; };
+		7920EC78254046B60026E47E /* CekTableCourierCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920EC77254046B60026E47E /* CekTableCourierCredit.swift */; };
+		7937806C2517CA460065FDA6 /* WormTabStripButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937806A2517CA460065FDA6 /* WormTabStripButton.swift */; };
+		7937806D2517CA460065FDA6 /* WormTabStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937806B2517CA460065FDA6 /* WormTabStrip.swift */; };
+		79536BFA250B98F1004D3965 /* SbHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79536BF9250B98F1004D3965 /* SbHomeController.swift */; };
+		79A3D5D5254120C70082263C /* TableBranchBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D5D4254120C70082263C /* TableBranchBilling.swift */; };
+		79A3D5D7254120DA0082263C /* CekTableBranchBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D5D6254120DA0082263C /* CekTableBranchBilling.swift */; };
+		79A3D5D92541219A0082263C /* TableCourierBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D5D82541219A0082263C /* TableCourierBilling.swift */; };
+		79A3D5DB254121AE0082263C /* CekTableCourierBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3D5DA254121AE0082263C /* CekTableCourierBilling.swift */; };
 		79A66A0825087F290009D9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A66A0725087F290009D9B1 /* AppDelegate.swift */; };
 		79A66A0A25087F290009D9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A66A0925087F290009D9B1 /* SceneDelegate.swift */; };
 		79A66A0C25087F290009D9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A66A0B25087F290009D9B1 /* ViewController.swift */; };
 		79A66A0F25087F290009D9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A66A0D25087F290009D9B1 /* Main.storyboard */; };
 		79A66A1125087F2A0009D9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A66A1025087F2A0009D9B1 /* Assets.xcassets */; };
 		79A66A1425087F2A0009D9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A66A1225087F2A0009D9B1 /* LaunchScreen.storyboard */; };
+		79A9E161252319CD007412CD /* MainExpressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E160252319CD007412CD /* MainExpressController.swift */; };
+		79AEBA1B2509055F001DF91F /* 29348-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 79AEBA1A2509055F001DF91F /* 29348-loading.json */; };
+		79B7EA7425355600006D903D /* TableBranchExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B7EA7325355600006D903D /* TableBranchExpress.swift */; };
+		79B7EA7625358758006D903D /* CekTableBranchExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B7EA7525358758006D903D /* CekTableBranchExpress.swift */; };
+		79B7EA792535B4C2006D903D /* server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B7EA782535B4C2006D903D /* server.swift */; };
+		79CFCF3F25400DF20011C0B5 /* MainControllerCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFCF3E25400DF20011C0B5 /* MainControllerCreditCard.swift */; };
+		79CFCF42254027B70011C0B5 /* MainBillingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFCF41254027B70011C0B5 /* MainBillingController.swift */; };
+		CB5B1268C2F9EFAA2080E988 /* Pods_IclDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F95E51D66DE169C0B8CBA88 /* Pods_IclDashboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E39E69E8F95A244D98A4FA8 /* Pods-IclDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IclDashboard.release.xcconfig"; path = "Target Support Files/Pods-IclDashboard/Pods-IclDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		7900B9AB2551132100E700A6 /* HomeCourierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCourierController.swift; sourceTree = "<group>"; };
+		7904CA6A2535B8C10054C4C9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7920A726253D7F6F00D707CA /* TableCourierExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCourierExpress.swift; sourceTree = "<group>"; };
+		7920A728253D7F8C00D707CA /* CekTableCourierExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableCourierExpress.swift; sourceTree = "<group>"; };
+		7920EC71254045DA0026E47E /* TableBranchCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBranchCredit.swift; sourceTree = "<group>"; };
+		7920EC73254045EF0026E47E /* CekTableBranchCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableBranchCredit.swift; sourceTree = "<group>"; };
+		7920EC75254046A00026E47E /* TableCourierCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCourierCredit.swift; sourceTree = "<group>"; };
+		7920EC77254046B60026E47E /* CekTableCourierCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableCourierCredit.swift; sourceTree = "<group>"; };
+		7937806A2517CA460065FDA6 /* WormTabStripButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WormTabStripButton.swift; path = "../../../../../Downloads/WormTabStrip-master/WormTabStrip/WormTabStrip/WormLib/WormTabStripButton.swift"; sourceTree = "<group>"; };
+		7937806B2517CA460065FDA6 /* WormTabStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WormTabStrip.swift; path = "../../../../../Downloads/WormTabStrip-master/WormTabStrip/WormTabStrip/WormLib/WormTabStrip.swift"; sourceTree = "<group>"; };
+		79536BF9250B98F1004D3965 /* SbHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SbHomeController.swift; sourceTree = "<group>"; };
+		79A3D5D4254120C70082263C /* TableBranchBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBranchBilling.swift; sourceTree = "<group>"; };
+		79A3D5D6254120DA0082263C /* CekTableBranchBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableBranchBilling.swift; sourceTree = "<group>"; };
+		79A3D5D82541219A0082263C /* TableCourierBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCourierBilling.swift; sourceTree = "<group>"; };
+		79A3D5DA254121AE0082263C /* CekTableCourierBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableCourierBilling.swift; sourceTree = "<group>"; };
 		79A66A0425087F290009D9B1 /* IclDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IclDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A66A0725087F290009D9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A66A0925087F290009D9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,15 @@
 		79A66A1025087F2A0009D9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A66A1325087F2A0009D9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A66A1525087F2A0009D9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A9E160252319CD007412CD /* MainExpressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExpressController.swift; sourceTree = "<group>"; };
+		79AEBA1A2509055F001DF91F /* 29348-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "29348-loading.json"; path = "../../../../../Downloads/29348-loading.json"; sourceTree = "<group>"; };
+		79B7EA7325355600006D903D /* TableBranchExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBranchExpress.swift; sourceTree = "<group>"; };
+		79B7EA7525358758006D903D /* CekTableBranchExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekTableBranchExpress.swift; sourceTree = "<group>"; };
+		79B7EA782535B4C2006D903D /* server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = server.swift; sourceTree = "<group>"; };
+		79CFCF3E25400DF20011C0B5 /* MainControllerCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerCreditCard.swift; sourceTree = "<group>"; };
+		79CFCF41254027B70011C0B5 /* MainBillingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBillingController.swift; sourceTree = "<group>"; };
+		7F95E51D66DE169C0B8CBA88 /* Pods_IclDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IclDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC367A0FB03B754B9D9037A0 /* Pods-IclDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IclDashboard.debug.xcconfig"; path = "Target Support Files/Pods-IclDashboard/Pods-IclDashboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5B1268C2F9EFAA2080E988 /* Pods_IclDashboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B75A884DE451F45C9D8DF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7904CA6A2535B8C10054C4C9 /* Alamofire.framework */,
+				7F95E51D66DE169C0B8CBA88 /* Pods_IclDashboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7900B9AA255112FD00E700A6 /* HomeCourier */ = {
+			isa = PBXGroup;
+			children = (
+				7900B9AB2551132100E700A6 /* HomeCourierController.swift */,
+			);
+			path = HomeCourier;
+			sourceTree = "<group>";
+		};
+		796B6F54250BCDDE0051544F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				79536BF9250B98F1004D3965 /* SbHomeController.swift */,
+				7937806B2517CA460065FDA6 /* WormTabStrip.swift */,
+				7937806A2517CA460065FDA6 /* WormTabStripButton.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		79A669FB25087F290009D9B1 = {
 			isa = PBXGroup;
 			children = (
 				79A66A0625087F290009D9B1 /* IclDashboard */,
 				79A66A0525087F290009D9B1 /* Products */,
+				FBCCCA002DE763960386DD1F /* Pods */,
+				3B75A884DE451F45C9D8DF64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +133,13 @@
 		79A66A0625087F290009D9B1 /* IclDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				7900B9AA255112FD00E700A6 /* HomeCourier */,
+				79A9E15F252319B3007412CD /* Express */,
+				79CFCF3D25400DD50011C0B5 /* CreditCard */,
+				79CFCF402540279A0011C0B5 /* Billing */,
+				79B7EA772535B4B5006D903D /* Server */,
+				796B6F54250BCDDE0051544F /* Home */,
+				79AEBA1925090550001DF91F /* Lottie */,
 				79A66A0725087F290009D9B1 /* AppDelegate.swift */,
 				79A66A0925087F290009D9B1 /* SceneDelegate.swift */,
 				79A66A0B25087F290009D9B1 /* ViewController.swift */,
@@ -67,6 +151,67 @@
 			path = IclDashboard;
 			sourceTree = "<group>";
 		};
+		79A9E15F252319B3007412CD /* Express */ = {
+			isa = PBXGroup;
+			children = (
+				79A9E160252319CD007412CD /* MainExpressController.swift */,
+				79B7EA7325355600006D903D /* TableBranchExpress.swift */,
+				79B7EA7525358758006D903D /* CekTableBranchExpress.swift */,
+				7920A726253D7F6F00D707CA /* TableCourierExpress.swift */,
+				7920A728253D7F8C00D707CA /* CekTableCourierExpress.swift */,
+			);
+			path = Express;
+			sourceTree = "<group>";
+		};
+		79AEBA1925090550001DF91F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				79AEBA1A2509055F001DF91F /* 29348-loading.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		79B7EA772535B4B5006D903D /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				79B7EA782535B4C2006D903D /* server.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		79CFCF3D25400DD50011C0B5 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				79CFCF3E25400DF20011C0B5 /* MainControllerCreditCard.swift */,
+				7920EC71254045DA0026E47E /* TableBranchCredit.swift */,
+				7920EC73254045EF0026E47E /* CekTableBranchCredit.swift */,
+				7920EC75254046A00026E47E /* TableCourierCredit.swift */,
+				7920EC77254046B60026E47E /* CekTableCourierCredit.swift */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		79CFCF402540279A0011C0B5 /* Billing */ = {
+			isa = PBXGroup;
+			children = (
+				79CFCF41254027B70011C0B5 /* MainBillingController.swift */,
+				79A3D5D4254120C70082263C /* TableBranchBilling.swift */,
+				79A3D5D6254120DA0082263C /* CekTableBranchBilling.swift */,
+				79A3D5D82541219A0082263C /* TableCourierBilling.swift */,
+				79A3D5DA254121AE0082263C /* CekTableCourierBilling.swift */,
+			);
+			path = Billing;
+			sourceTree = "<group>";
+		};
+		FBCCCA002DE763960386DD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC367A0FB03B754B9D9037A0 /* Pods-IclDashboard.debug.xcconfig */,
+				0E39E69E8F95A244D98A4FA8 /* Pods-IclDashboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79A66A1825087F2A0009D9B1 /* Build configuration list for PBXNativeTarget "IclDashboard" */;
 			buildPhases = (
+				DFF8174D7C5E74A611F0AEFF /* [CP] Check Pods Manifest.lock */,
 				79A66A0025087F290009D9B1 /* Sources */,
 				79A66A0125087F290009D9B1 /* Frameworks */,
 				79A66A0225087F290009D9B1 /* Resources */,
+				D762D71BFA8582EFC882C824 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +275,53 @@
 				79A66A1425087F2A0009D9B1 /* LaunchScreen.storyboard in Resources */,
 				79A66A1125087F2A0009D9B1 /* Assets.xcassets in Resources */,
 				79A66A0F25087F290009D9B1 /* Main.storyboard in Resources */,
+				79AEBA1B2509055F001DF91F /* 29348-loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D762D71BFA8582EFC882C824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IclDashboard/Pods-IclDashboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IclDashboard/Pods-IclDashboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IclDashboard/Pods-IclDashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF8174D7C5E74A611F0AEFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IclDashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79A66A0025087F290009D9B1 /* Sources */ = {
@@ -139,8 +329,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A66A0C25087F290009D9B1 /* ViewController.swift in Sources */,
+				79A9E161252319CD007412CD /* MainExpressController.swift in Sources */,
+				7920EC76254046A00026E47E /* TableCourierCredit.swift in Sources */,
+				79A3D5D5254120C70082263C /* TableBranchBilling.swift in Sources */,
 				79A66A0825087F290009D9B1 /* AppDelegate.swift in Sources */,
+				79B7EA7425355600006D903D /* TableBranchExpress.swift in Sources */,
 				79A66A0A25087F290009D9B1 /* SceneDelegate.swift in Sources */,
+				79CFCF3F25400DF20011C0B5 /* MainControllerCreditCard.swift in Sources */,
+				79CFCF42254027B70011C0B5 /* MainBillingController.swift in Sources */,
+				7937806D2517CA460065FDA6 /* WormTabStrip.swift in Sources */,
+				79A3D5DB254121AE0082263C /* CekTableCourierBilling.swift in Sources */,
+				7920A727253D7F6F00D707CA /* TableCourierExpress.swift in Sources */,
+				7920EC74254045EF0026E47E /* CekTableBranchCredit.swift in Sources */,
+				79A3D5D92541219A0082263C /* TableCourierBilling.swift in Sources */,
+				79A3D5D7254120DA0082263C /* CekTableBranchBilling.swift in Sources */,
+				7920EC78254046B60026E47E /* CekTableCourierCredit.swift in Sources */,
+				7920EC72254045DA0026E47E /* TableBranchCredit.swift in Sources */,
+				7900B9AC2551132100E700A6 /* HomeCourierController.swift in Sources */,
+				79B7EA792535B4C2006D903D /* server.swift in Sources */,
+				7937806C2517CA460065FDA6 /* WormTabStripButton.swift in Sources */,
+				7920A729253D7F8C00D707CA /* CekTableCourierExpress.swift in Sources */,
+				79536BFA250B98F1004D3965 /* SbHomeController.swift in Sources */,
+				79B7EA7625358758006D903D /* CekTableBranchExpress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +492,18 @@
 		};
 		79A66A1925087F2A0009D9B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC367A0FB03B754B9D9037A0 /* Pods-IclDashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 558S4KFWLW;
 				INFOPLIST_FILE = IclDashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iDss.IclDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -300,15 +513,18 @@
 		};
 		79A66A1A25087F2A0009D9B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E39E69E8F95A244D98A4FA8 /* Pods-IclDashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 558S4KFWLW;
 				INFOPLIST_FILE = IclDashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iDss.IclDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
